@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Html</title>
+    <meta charset="UTF-8">
+    <style>
+       colgroup { background-color: aqua;}
+        td {
+            border: solid;
+            height: 50px;
+            width: 250px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <colgroup span="1"></colgroup>
+        <tr>
+            <td colspan="4">1</td>
+
+        </tr>
+        <tr>
+            <td rowspan="3">2</td>
+            <td>3</td>
+            <td>4</td>
+            <td rowspan="3">5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td colspan="2">8</td>
+        </tr>
+    </table>
+</body>
+
+</html>

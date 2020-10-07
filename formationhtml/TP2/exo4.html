@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Html</title>
+    <meta charset="UTF-8">
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+
+        td,
+        th {
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Equipes</th>
+                <th colspan="6">Janvier</th>
+            </tr>
+            <tr>
+                <th>Lundi</th>
+                <th>Mardi</th>
+                <th colspan="2">Mercredi</th>
+                <th>Jeudi</th>
+                <th>Vendredi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Equipe 1</td>
+                <td colspan="4"> Tach1</td>
+                <td colspan="2">Tache 2</td>
+                <td rowspan="2">Semaine 1</td>
+            </tr>
+            <tr>
+                <td>Equipe 2</td>
+                <td colspan="3">Tache 1</td>
+                <td colspan="3">Tache 2</td>
+            </tr>
+            <tr>
+                <td>Equipe 1</td>
+                <td> Tach3</td>
+                <td colspan="4">Tache4</td>
+                <td>Tache5</td>
+                <td rowspan="2">Semaine 2</td>
+            </tr>
+            <tr>
+                <td>Equipe 2</td>
+                <td colspan="2">Tache 3</td>
+                <td colspan="4">Tache 2</td>
+            </tr>
+            <tr>
+                <td>Equipe 1</td>
+                <td colspan="3"> Tache 5</td>
+                <td colspan="3">Tache6</td>
+                <td rowspan="2">Semaine 3</td>
+            </tr>
+            <tr>
+                <td>Equipe 2</td>
+                <td>Tache 5</td>
+                <td colspan="5">Tache 6</td>
+            </tr>
+            <tr>
+                <td>Equipe 1</td>
+                <td colspan="4"> Tache 7</td>
+                <td colspan="2">Tache 8</td>
+                <td rowspan="2">Semaine 4</td>
+            </tr>
+            <tr>
+                <td>Equipe 2</td>
+                <td colspan="3">Tache 7</td>
+                <td colspan="3">Tache 8</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
