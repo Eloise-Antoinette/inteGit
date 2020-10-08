@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <style>
+        input:invalid {
+            background-color: lightcoral;
+        }
+    </style>
+    <title>Informaticien</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <form method="post" enctype="multipart/form-data">
+        <label for="nom">Nom : </label><input required type="text" name="nom">
+        <br>
+        <label for="prenom">Prénom : </label><input required type="text" name="prenom">
+        <br>
+        <label for="email">Email : </label><input required   type="email" name="email">
+        <br>
+        <label for="sexe">Sexe :</label>
+        <input type="radio" name="sexe" value="femme">
+        <label name="sexe" for="sexe">Femme</label>
+        <input type="radio" name="sexe" value="homme">
+        <label for="sexe">Homme</label>
+        <br>
+        <label for="myphoto">Photo : <input type="file" name="myphoto" accept="image/png, image/jpeg">
+      
+            <br>
+            <label for="pays">Pays :</label><select id="pays">
+                <option value="1">FRANCE</option>
+                <option value="2">ANGLETERRE</option>
+                <option value="3">ALLEMAGNE</option>
+                <option value="4">ITALIE</option>
+                <option value="5">SUISSE</option>
+                <option value="6">ESPAGNE</option>
+            </select>
+            <br>
+            <label for="language">Langages préférés : </label>
+            <select size="4" id="pays">
+                <option value="1">Java</option>
+                <option value="2">C</option>
+                <option value="3">C++</option>
+                <option value="4">PHP</option>
+            </select>
+            <br>
+            <label for="activity">Domaine d'activité</label>
+            <label><input type="checkbox" name="activity" value="dev">Développement</label>
+            <label><input type="checkbox" name="activity" value="gdp">Gestion de projet</label>
+            <label><input type="checkbox" name="activity" value="bdd">Base de données</label>
+            
+     <br>    
+        <input type="submit">
+        <input value="annuler" type="reset">
+    </form>
+
+
+</body>
+
+</html>

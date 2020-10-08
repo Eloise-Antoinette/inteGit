@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <style>
+        input:valid {
+            background-color: lightgreen;
+        }
+        input:invalid {
+            background-color: lightcoral;
+        }
+    </style>
+    <title>Password</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <form method="post" enctype="multipart/form-data">
+        <label for="email">Email : </label><input type="email" pattern="[a-z0-9._%+-]+@needemand.com" name="email" required>
+        <br>
+        <label for="password">Mot de passe :</label>
+            <input type="password" pattern="^(?=.*\d).{5,8}$" name="password" required>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+
+</body>
+
+</html>

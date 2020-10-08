@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Html</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <form methode="get" >Nom : <input type="text" placeholder="Votre nom" readonly value="yes">
+        Code postal : <input type="text" placeholder="Code Postal" pattern="[0-9]{5}"><br><input type="submit"></form>
+
+
+
+    <form action="get">
+        <p>votre navigateur préféré :<select>
+                <option value="1">Edge</option>
+                <option value="2">Firefox</option>
+                <option value="3" selected>Safari</option>
+                <option value="4">Opera</option>
+                <option value="5">Google Chrome</option>
+            </select></p>
+    </form>
+    <form action="" method="post" enctype="multipart/form-data"><input type="file"></form>
+
+    <form action="">Choisir un fruit : <input type="text" list="fruits"><datalist id="fruits"><option value="Orange"></option><option value="Pomme"></option><option value="Poire"></option><option value="Prune"></option></datalist></form>
+</body>
+
+</html>
