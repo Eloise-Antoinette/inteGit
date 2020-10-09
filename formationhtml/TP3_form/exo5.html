@@ -6,6 +6,16 @@
         input:invalid {
             background-color: lightcoral;
         }
+
+        label {
+            display: inline-block;
+            width: 150px;
+       margin-bottom: 10px;
+        }
+
+        input {
+            display: inline-block;
+        }
     </style>
     <title>Informaticien</title>
     <meta charset="UTF-8">
@@ -13,6 +23,10 @@
 
 <body>
     <form method="post" enctype="multipart/form-data">
+        <table>
+
+
+       
         <label for="nom">Nom : </label><input required type="text" name="nom">
         <br>
         <label for="prenom">Prénom : </label><input required type="text" name="prenom">
@@ -25,7 +39,7 @@
         <input type="radio" name="sexe" value="homme">
         <label for="sexe">Homme</label>
         <br>
-        <label for="myphoto">Photo : <input type="file" name="myphoto" accept="image/png, image/jpeg">
+        <label for="myphoto">Photo : </label> <input type="file" name="myphoto" accept="image/png, image/jpeg">
       
             <br>
             <label for="pays">Pays :</label><select id="pays">
@@ -53,6 +67,8 @@
      <br>    
         <input type="submit">
         <input value="annuler" type="reset">
+    
+    
     </form>
 
 

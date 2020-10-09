@@ -4,6 +4,12 @@
 <head>
     <title>Commande</title>
     <meta charset="UTF-8">
+    <style>
+
+        span{
+            margin:15px;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,12 +31,12 @@
             <p>Modèle : <input type="text" name="model"></p>
             <br>
             <p>Taille : <input type="range" min="0" max="3" list="taille">
-            <datalist id="taille">
-                <option label="S">S</option>
-                <option label="M">M</option>
-                <option label="L" >L</option>
-                <option label="XL" >XL</option>
-            </datalist>
+            <div>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+            </div>
             <p>Quantité : <input type="number" min="1" step="3" ></p>
         </div>
 
