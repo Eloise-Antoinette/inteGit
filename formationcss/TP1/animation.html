@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Animation</title>
+    <meta charset="UTF-8" />
+    <style>
+        #boite {
+            background-color: red;
+            position: relative;
+            width: 100px;
+            height: 100px;
+            animation: redBox 5s infinite;
+        }
+
+        @keyframes "redBox" {
+            0% {
+                left: 10px;
+            }
+
+            50% {
+                left: 400px;
+            }
+
+            100% {
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="boite">
+        <p>&nbsp;</p>
+    </div>
+</body>
+
+</html>
