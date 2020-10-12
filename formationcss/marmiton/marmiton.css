@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.container{
+  box-shadow: 0 2px 18px 0 rgba(0,0,0,0.22);
+  border-radius: 10%;
+  width: fit-content;
+  height: fit-content;
+}
+
+
+article.menu {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  border-radius: 10%;
+  overflow: hidden;
+
+}
+
+.receipe_link {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+}
+
+.receipe_link > img {
+  border-radius: 10%;
+
+}
+.receipe_special {
+  padding-left: 5pt;
+  padding-right: 5pt;
+  color: #ff6f61;
+  position: absolute;
+  z-index: 4;
+  top: 10%;
+  right: 0%;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  border-top-left-radius: 20pt 50%;
+  border-bottom-left-radius: 20pt 50%;
+}
+
+.addtoclass {
+  position: absolute;
+  bottom: 50%;
+  background-color: white;
+  padding: 10px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  right: 47%;
+}
+
+.icon_container {
+  position: relative;
+}
+
+.icon_container > img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.addtoclass::before {
+  content: "";
+  position: absolute;
+  bottom: 40%;
+  right: auto;
+  left: -17px;
+  background-color: white;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: radial-gradient(circle at top left, transparent 18px, #fff 19px);
+}
+
+.addtoclass::after {
+  content: "";
+  position: absolute;
+  left: auto;
+  right: -17px;
+  bottom: 40%;
+  background-color: white;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: radial-gradient(circle at top right, transparent 18px, #fff 19px);
+}
+
+.addtoclass:hover .overlay > img {
+  opacity: 1;
+}
+
+.overlay > img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+.description {
+  width: 100%;
+  height: 1%;
+  position: absolute;
+  z-index: 3;
+  top: 80%;
+  height: 20%;
+  border-radius: 10%;
+  border-radius: 10%;
+  box-shadow: 2px 18px 0 black
+
+}
+
+.receipe_description {
+  font-size: 20pt;
+  z-index: -1;
+  background-color: white;
+  width: 100%;
+  height: 70pt;
+  padding-top: 11pt;
+  border-top-right-radius: 40pt 70%;
+  border-top-left-radius: 40pt 70%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+}
