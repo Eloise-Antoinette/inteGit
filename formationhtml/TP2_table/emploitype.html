@@ -5,19 +5,18 @@
     <title>REAC</title>
     <meta charset="UTF-8">
     <style>
-
         caption {
             font-family: Roboto;
             font-weight: bold;
             margin-bottom: 15px;
         }
-        
+
         table {
             border: 1px solid lightgray;
             border-collapse: collapse;
             width: 70%;
             margin: 20px;
-            font-family: Roboto Condensed;
+            font-family: 'Helvetica Neue', sans-serif condensed;
         }
 
         th {
@@ -32,7 +31,15 @@
             padding: 5px;
         }
 
-        .blank, .bigblank{
+        tr:first-child {
+            background-color: #ccffcc;
+            ;
+        }
+
+
+
+        .blank,
+        .bigblank {
             height: 0px;
             background-color: white;
         }
@@ -41,32 +48,29 @@
             height: 5px;
         }
 
-        .act {
-            background-color: #ccffcc;
-        }
-
+        /*
         .comp {
             background-color: #ffff99;
-        }
-        
-        .numero{
-            width: 5px; 
-        }
+        }*/
 
+        .numero {
+            width: 5px;
+        }
     </style>
 </head>
 
 <body>
     <table>
 
-        <colgroup span ="2" class="act">
+        <colgroup span="2">
             <col class="numero">
             <col>
         </colgroup>
-        <colgroup span="2" class="comp">
+        <!--colgroup span="2" class="comp">
             <col class="numero">
             <col class="competence">
-        </colgroup>
+        </colgroup-->
+
 
         <!-- HEAD -->
         <caption>Vue synoptique de l'emploi-type</caption>
@@ -79,16 +83,17 @@
             </tr>
 
         </thead>
-        <tbody>
 
-            <!-- Partie 1 -->
+        <!-- Partie 1 -->
+        <tbody>
             <tr>
                 <td rowspan="9">1</td>
-                <td rowspan="9">Concevoir et développer des composants d'interface utilisateur en intégrant les recommandations de sécurité</td>
+                <td rowspan="9">Concevoir et développer des composants d'interface utilisateur en intégrant les
+                    recommandations de sécurité</td>
                 <td>1</td>
                 <td>Maquetter une application</td>
             </tr>
-            <tr >
+            <tr>
                 <td class="blank"></td>
                 <td class="blank"></td>
             </tr>
@@ -99,7 +104,7 @@
             <tr>
                 <td class="blank"></td>
                 <td class="blank"></td>
-                
+
             </tr>
             <tr>
                 <td>3</td>
@@ -127,11 +132,14 @@
                 <td class="bigblank"></td>
                 <td class="bigblank"></td>
             </tr>
+        </tbody>
+        <tbody>
 
             <!-- Partie 2 -->
             <tr>
                 <td rowspan="5">2</td>
-                <td rowspan="5">Concevoir et développer la persistance des données en intégrant les recommandations de sécurité</td>
+                <td rowspan="5">Concevoir et développer la persistance des données en intégrant les recommandations de
+                    sécurité</td>
                 <td>6</td>
                 <td>Concevoir une base de données</td>
             </tr>
@@ -157,14 +165,19 @@
                 <td class="bigblank"></td>
                 <td class="bigblank"></td>
             </tr>
-          
 
-            <!-- Partie 3 -->
+        </tbody>
+
+        <!-- Partie 3 -->
+        <tbody>
+
             <tr>
                 <td rowspan="13">3</td>
-                <td rowspan="13">Concevoir et développer une application multicouche répartie en intégrant les recommandations de sécurité</td>
+                <td rowspan="13">Concevoir et développer une application multicouche répartie en intégrant les
+                    recommandations de sécurité</td>
                 <td>9</td>
-                <td>Collaborer à la gestion d'un projet informatique et à l'organisation de l'environnement de développement</td>
+                <td>Collaborer à la gestion d'un projet informatique et à l'organisation de l'environnement de
+                    développement</td>
             </tr>
             <tr>
                 <td class="blank"></td>
@@ -210,14 +223,13 @@
                 <td class="blank"></td>
                 <td class="blank"></td>
             </tr>
-           
+
             <tr>
                 <td>15</td>
                 <td>Préparer et exécuter le déploiement d'une application</td>
             </tr>
+        <tbody>
 
-
-            
 
     </table>
 </body>
