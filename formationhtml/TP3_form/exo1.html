@@ -9,31 +9,29 @@
 <body>
     <form>
         Sexe : 
-        <input type="radio" name="sexe" value="femme"> 
+        <input type="radio" name="sexe" value="femme" checked> 
         <label name="sexe"  for="sexe">Femme</label>
         <input type="radio"name="sexe" value="homme"> 
         <label for="sexe">Homme</label>
 
         <br>
-        Nom : <input type="text" name="nom">
+       <label for="nom"> Nom : <input type="text" name="nom"></label>
         <br>
-        Prénom : <input type="text" name="prenom">
+        <label for="prenom">Prénom : <input type="text" name="prenom"></label>
         <br>
-        Nom : <input type="text" name="nom1">    
+        <label for="pseudo"></label> Pseudo : <input type="text" name="pseudo"></label>
         <br>
-        Pseudo : <input type="text" name="pseudo">
+        <label for="age">Age : <input type="number" min="0" max="120" name="age">  </label> 
         <br>
-        Age : <input type="number" min="0" max="120" name="age">   
+        <label for="password">Mot de passe : <input type="password" name="password"></label>
         <br>
-        Mot de passe : <input type="password" name="password">
+        <label for="commentaire">Commentaires : <input type="textarea" name="commentaire"></label>
         <br>
-        Commentaires : <input type="textarea" name="commentaire">
-        <br>
-        Pays : <select>
+        <label for="pays">Pays : <select name="pays">
             <option value="1">France</option>
             <option value="2">Espagne</option>
         </select>
-        Souhaitez vous être contacté par email : <input type="radio" name="mail" value="true"> 
+        <label for="pays"> Souhaitez vous être contacté par email : <input type="radio" name="mail" value="true"> 
         <label for="mail">Oui</label>
         <input type="radio" name="mail" value="false"> 
         <label for="mail">Non</label>

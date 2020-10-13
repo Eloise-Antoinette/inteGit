@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+
+
+h2 {
+    font: 100px Lobster;
+    font-variant: small-caps;
+}
+
+h1 {
+    word-spacing: 15px;
+}
+
+h1 +  h2 {
+  color: aqua;
+}
+
+div + p {
+    color:green;
+}
+
+p{
+    word-spacing: -2pt;
+    line-height: 40px;
+ /*   text-shadow: -4px -8px 2px ;*/
+
+}
+
+p::first-line {
+    color:blue;
+}
