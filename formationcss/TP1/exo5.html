@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #top {
+            display: inline-flex;
+        }
+
+        #bottom {
+            display: inline-flex;
+        }
+
+        body>div>div {
+            position: relative;
+            height: 300pt;
+            width: 300pt;
+
+
+        }
+
+        div div {
+            height: 200pt;
+            width: 200pt;
+            border: solid 1px;
+        }
+
+        .square1 {
+            background-color: #fee6cc;
+            position: absolute;
+            border-color: #d8bd76;
+        }
+
+        #top .square1 {
+            top: 10%;
+        }
+
+        #bottom .square1 {
+            bottom: 10%;
+        }
+
+        #square1, #square1b {
+            left: 10%;
+        }
+
+        #square1a, #square1c {
+            right: 10%;
+        }
+
+        .square2 {
+            background-color: #d9e8fb;
+            border-color: #9fb2c7;
+            position: absolute;     
+            z-index: 1;
+        }
+
+        #top .square2 {
+            top: 13%;
+        }
+
+        #bottom .square2 {
+            bottom: 13%;
+        }
+
+        #square2, #square2b {
+            left: 13%;
+        }
+
+        #square2a, #square2c {
+            right: 13%;
+        }
+
+        .square3 {
+            background-color: #d5e8d4;
+            border-color: #a5c29d;
+            position: absolute;
+            top: 16%;
+            z-index: 2;
+        }
+
+        #top .square3 {
+            top: 16%;
+        }
+
+        #bottom .square3 {
+            bottom: 16%;
+        }
+
+        #square3, #square3b {
+            left: 16%;
+        }
+
+        #square3a, #square3c {
+            right: 16%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <div>
+            <div class="square1" id="square1"></div>
+            <div class="square2" id="square2"></div>
+            <div class="square3" id="square3"></div>
+        </div>
+        <div>
+            <div class="square1" id="square1a"></div>
+            <div class="square2" id="square2a"></div>
+            <div class="square3" id="square3a"></div>
+        </div>
+    </div>
+
+    <div id="bottom">
+                <div>
+            <div class="square1" id="square1b"></div>
+            <div class="square2" id="square2b"></div>
+            <div class="square3" id="square3b"></div>
+        </div>
+        <div>
+            <div class="square1" id="square1c"></div>
+            <div class="square2" id="square2c"></div>
+            <div class="square3" id="square3c"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

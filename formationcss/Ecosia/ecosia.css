@@ -3,8 +3,9 @@
 
 section {
     font-family: Montserrat;
+    font-size: large;
+    line-height: 1.5;
     color:#353535;
-
 }
 
 h1 {
@@ -14,9 +15,10 @@ h1 {
 #container {
   display: flex;
   margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-bottom: 70px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: fit-content;
 }
 
 .title {
@@ -29,6 +31,10 @@ h1 {
   box-shadow: 0 0 7px rgb(74, 74, 74, 0.25);
   border-radius: 1%;
   text-align: center;
+}
+
+.insert:hover {
+  transform: scale(1.02);
 }
 
 .link {
@@ -46,11 +52,12 @@ img {
 a {
     max-width: 10%;
     background-color: #438de0;
-    padding: 15px;
+    padding: 15pt;
     border-radius: 3%;
     color:white;
     text-decoration: none;
-    margin-top: 40pt;
+    font-weight: 500;
+    margin-top: 100pt;
 }
 
 a:hover {

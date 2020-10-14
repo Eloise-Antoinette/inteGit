@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: solid 1px;
+        }
+
+        body>div {
+            position: relative;
+            height: 500pt;
+            width: 500pt;
+        }
+
+        div div {
+            height: 200pt;
+            width: 200pt;
+        }
+
+        #square1 {
+            background-color: #fee6cc;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            border-color: #d8bd76;
+        }
+
+        #square2 {
+            background-color: #d9e8fb;
+            border-color: #9fb2c7;
+            position: absolute;
+            top: 13%;
+            left: 13%;
+            z-index: 1;
+        }
+
+        #square3 {
+            background-color: #d5e8d4;
+            border-color: #a5c29d;
+            position: absolute;
+            top: 16%;
+            left: 16%;
+            z-index: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div id="square1"></div>
+        <div id="square2"></div>
+        <div id="square3"></div>
+    </div>
+
+
+
+</body>
+
+</html>

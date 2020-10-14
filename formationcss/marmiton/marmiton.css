@@ -48,34 +48,22 @@ article.menu {
 
 .addtoclass {
   position: absolute;
-  bottom: 50%;
+  bottom: 45%;
   background-color: white;
-  padding: 10px;
+  padding: 20px;
   border-top-left-radius: 100%;
   border-top-right-radius: 100%;
   right: 47%;
 }
 
-.icon_container {
-  position: relative;
-}
 
-.icon_container > img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-}
 
 .addtoclass::before {
   content: "";
   position: absolute;
-  bottom: 40%;
+  bottom: 50%;
   right: auto;
-  left: -17px;
+  left: -15px;
   background-color: white;
   display: inline-block;
   width: 18px;
@@ -87,8 +75,8 @@ article.menu {
   content: "";
   position: absolute;
   left: auto;
-  right: -17px;
-  bottom: 40%;
+  right: -15px;
+  bottom: 50%;
   background-color: white;
   display: inline-block;
   width: 18px;
@@ -100,13 +88,15 @@ article.menu {
   opacity: 1;
 }
 
+.icon_and_overlay {
+  position: relative;
+}
+
+
+
 .overlay > img {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
+  top: 23%;
   opacity: 0;
 }
 
@@ -129,7 +119,7 @@ article.menu {
   background-color: white;
   width: 100%;
   height: 70pt;
-  padding-top: 11pt;
+  padding-top: 17pt;
   border-top-right-radius: 40pt 70%;
   border-top-left-radius: 40pt 70%;
   border-bottom-left-radius: 10%;

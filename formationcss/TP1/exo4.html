@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: inline-flex;
+        }
+
+        div {
+            border: solid 1px;
+        }
+
+        body>div {
+            position: relative;
+            height: 300pt;
+            width: 300pt;
+        }
+
+        div div {
+            height: 200pt;
+            width: 200pt;
+        }
+
+        .square1 {
+            background-color: #fee6cc;
+            position: absolute;
+            top: 10%;
+            border-color: #d8bd76;
+        }
+
+
+        #square1 {
+            left: 10%;
+        }
+
+        #square1a {
+            right: 10%;
+        }
+
+        .square2 {
+            background-color: #d9e8fb;
+            border-color: #9fb2c7;
+            position: absolute;
+            top: 13%;
+            z-index: 1;
+        }
+
+        #square2 {
+            left: 13%;
+        }
+
+        #square2a {
+            right: 13%;
+        }
+
+        .square3 {
+            background-color: #d5e8d4;
+            border-color: #a5c29d;
+            position: absolute;
+            top: 16%;
+            z-index: 2;
+        }
+
+        #square3 {
+            left: 16%;
+        }
+
+        #square3a {
+            right: 16%;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="square1" id="square1"></div>
+        <div class="square2" id="square2"></div>
+        <div class="square3" id="square3"></div>
+    </div>
+    <div>
+        <div class="square1" id="square1a"></div>
+        <div class="square2" id="square2a"></div>
+        <div class="square3" id="square3a"></div>
+    </div>
+
+
+</body>
+
+</html>
